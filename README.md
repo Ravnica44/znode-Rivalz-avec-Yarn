@@ -17,9 +17,24 @@ su - znode
 
 ```shell
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update && sudo apt install yarn
 ```
+
+```shell
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+
+```shell
+sudo apt update
+```
+
+```shell
+sudo apt install -y nodejs
+```
+
+```shell
+sudo apt install --no-install-recommends -y yarn
+```
+
 
 ```shell
 echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bashrc
