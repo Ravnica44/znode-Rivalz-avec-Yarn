@@ -7,6 +7,10 @@ sudo apt update && sudo apt install yarn
 ```
 
 ```shell
+export PATH="$(yarn global bin):$PATH"
+```
+
+```shell
 yarn --version
 ```
 
