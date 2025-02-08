@@ -56,4 +56,3 @@ If you are trying to run a zNode without any license yet, to check the delegate 
 After that you can use the delegate code from the program in our zNode Panel to make the delegation.
 When delegation is done, you can return to the program and run the zNode with
 `znode run`
-)
