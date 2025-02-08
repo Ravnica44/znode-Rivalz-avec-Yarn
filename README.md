@@ -1,3 +1,5 @@
+Check if you have a license before starting this tutorial at https://znode.rivalz.ai/licenses
+
 https://docs.rivalz.ai/znode-validators/running-a-znode
 
 ```shell
