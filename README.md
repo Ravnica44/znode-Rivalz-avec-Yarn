@@ -1,6 +1,21 @@
 https://docs.rivalz.ai/znode-validators/running-a-znode
 
 ```shell
+adduser znode
+```
+
+```shell
+sudo usermod -aG sudo znode
+```
+```shell
+screen -S Znode
+```
+
+```shell
+su - znode
+```
+
+```shell
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update && sudo apt install yarn
