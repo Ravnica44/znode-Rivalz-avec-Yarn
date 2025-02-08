@@ -7,7 +7,8 @@ sudo apt update && sudo apt install yarn
 ```
 
 ```shell
-export PATH="$(yarn global bin):$PATH"
+echo 'export PATH="$(yarn global bin):$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ```shell
