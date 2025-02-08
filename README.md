@@ -1,4 +1,4 @@
-[# znode-Rivalz-avec-Yarn](https://docs.rivalz.ai/znode-validators/running-a-znode
+https://docs.rivalz.ai/znode-validators/running-a-znode
 
 ```shell
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
