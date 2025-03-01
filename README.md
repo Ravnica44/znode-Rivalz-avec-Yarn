@@ -56,6 +56,10 @@ echo 'export PATH="$PATH:/home/rivalz/.yarn/bin"' >> ~/.bashrc && source ~/.bash
 ```
 
 ```shell
+znode show-node-id 
+```
+
+```shell
 znode run
 ```
 
