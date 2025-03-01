@@ -48,7 +48,15 @@ yarn --version
 ```
 
 ```shell
-yarn global add rivalz-znode-cli@1.7.2
+yarn global add rivalz-znode-cli@latest
+```
+
+```shell
+echo 'export PATH="$PATH:/home/rivalz/.yarn/bin"' >> ~/.bashrc && source ~/.bashrc
+```
+
+```shell
+znode run
 ```
 
 For new zNodes, without licenses inside
